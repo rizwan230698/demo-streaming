@@ -93,6 +93,11 @@ export const LinkX = styled(Link)`
   &:not(:last-child) {
     border-right: 1px solid white;
   }
+
+  ${media.mobile`
+  padding-right: 15px;
+  line-height: 25px
+    `}
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -113,6 +118,11 @@ export const FooterLeft = styled.div`
   ${media.tablet`
   display:flex;
   flex-direction:column;
+  `}
+
+  ${media.mobile`
+  display:flex;
+  flex-direction:row;
   `}
 `;
 
@@ -140,14 +150,15 @@ export const SocialButton = styled(Link)`
   }
 
   ${media.mobile`
-    margin-bottom:10px
+    margin-bottom:10px;
+
+    &:not(:last-child) {
+      margin-right: 0px;
+    }
   `}
 `;
 
 export const FooterRight = styled.div`
-  & > * {
-    margin-bottom: 10px;
-  }
   ${media.mobile`
   display:flex;
   flex-direction:column;
