@@ -1,0 +1,35 @@
+{
+  "files": {
+    "static/js/0.a8049625.chunk.js": "/demo-streaming/static/js/0.a8049625.chunk.js",
+    "static/js/0.a8049625.chunk.js.map": "/demo-streaming/static/js/0.a8049625.chunk.js.map",
+    "static/js/1.4e7db25a.chunk.js": "/demo-streaming/static/js/1.4e7db25a.chunk.js",
+    "static/js/1.4e7db25a.chunk.js.map": "/demo-streaming/static/js/1.4e7db25a.chunk.js.map",
+    "main.css": "/demo-streaming/static/css/main.29e3cedd.chunk.css",
+    "main.js": "/demo-streaming/static/js/main.b0309b23.chunk.js",
+    "main.js.map": "/demo-streaming/static/js/main.b0309b23.chunk.js.map",
+    "runtime-main.js": "/demo-streaming/static/js/runtime-main.4786fa84.js",
+    "runtime-main.js.map": "/demo-streaming/static/js/runtime-main.4786fa84.js.map",
+    "static/css/4.63b65d4e.chunk.css": "/demo-streaming/static/css/4.63b65d4e.chunk.css",
+    "static/js/4.99e0ea44.chunk.js": "/demo-streaming/static/js/4.99e0ea44.chunk.js",
+    "static/js/4.99e0ea44.chunk.js.map": "/demo-streaming/static/js/4.99e0ea44.chunk.js.map",
+    "static/js/5.0a69f557.chunk.js": "/demo-streaming/static/js/5.0a69f557.chunk.js",
+    "static/js/5.0a69f557.chunk.js.map": "/demo-streaming/static/js/5.0a69f557.chunk.js.map",
+    "static/js/6.75cabb29.chunk.js": "/demo-streaming/static/js/6.75cabb29.chunk.js",
+    "static/js/6.75cabb29.chunk.js.map": "/demo-streaming/static/js/6.75cabb29.chunk.js.map",
+    "static/js/7.a249b195.chunk.js": "/demo-streaming/static/js/7.a249b195.chunk.js",
+    "static/js/7.a249b195.chunk.js.map": "/demo-streaming/static/js/7.a249b195.chunk.js.map",
+    "index.html": "/demo-streaming/index.html",
+    "precache-manifest.35f21fedcc82eddd2b28d6478b184b6e.js": "/demo-streaming/precache-manifest.35f21fedcc82eddd2b28d6478b184b6e.js",
+    "service-worker.js": "/demo-streaming/service-worker.js",
+    "static/css/4.63b65d4e.chunk.css.map": "/demo-streaming/static/css/4.63b65d4e.chunk.css.map",
+    "static/css/main.29e3cedd.chunk.css.map": "/demo-streaming/static/css/main.29e3cedd.chunk.css.map",
+    "static/js/4.99e0ea44.chunk.js.LICENSE.txt": "/demo-streaming/static/js/4.99e0ea44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4786fa84.js",
+    "static/css/4.63b65d4e.chunk.css",
+    "static/js/4.99e0ea44.chunk.js",
+    "static/css/main.29e3cedd.chunk.css",
+    "static/js/main.b0309b23.chunk.js"
+  ]
+}
