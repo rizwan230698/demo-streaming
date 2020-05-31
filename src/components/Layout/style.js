@@ -143,7 +143,8 @@ export const SocialButton = styled(Link)`
     margin-right: 10px;
   }
   &:last-child img {
-    height: 40px;
+    height: 41px;
+    width: 127px;
   }
   & img {
     border-radius: 4px;
