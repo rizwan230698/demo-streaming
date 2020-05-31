@@ -10,18 +10,18 @@
 
 ## How did you decide on the technical and architectural choices used as part of your solution?
 
-### I used react-router-dom because it is one of the most popular routing libraries and it's easy to use as well. I used Axios to make API calls because it is compatible with all the browsers. For the UI design, I used Ant Design and styled-components because Ant Design has a lot of components and it can be easily customized using styled-components.
+I used react-router-dom because it is one of the most popular routing libraries and it's easy to use as well. I used Axios to make API calls because it is compatible with all the browsers. For the UI design, I used Ant Design and styled-components because Ant Design has a lot of components and it can be easily customized using styled-components.
 
 ## Are there any improvements you could make to your submission?
 
-### I could have tried to reuse components more and styled the UI more.
+I could have tried to reuse components more and styled the UI more.
 
 ## What would you do differently if you were allocated more time?
 
-### I don't have much idea how to write tests for React App if I had more time I'd have learned it.
+I don't have much idea how to write tests for React App if I had more time I'd have learned it.
 
-![alt text](./public/screenshots/homepage.PNG)
+![Homepage](./public/screenshots/homepage.png)
 
-![alt text](./public/screenshots/movies.PNG)
+![MoviesPage](./public/screenshots/movies.png)
 
-![alt text](./public/screenshots/series.PNG)
+![SeriesPage](./public/screenshots/series.png)
