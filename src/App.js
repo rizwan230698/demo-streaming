@@ -11,7 +11,7 @@ const MoviesPage = lazy(() => import('./pages/moviespage'));
 
 const App = () => (
   <Provider>
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <Switch>
         <ErrorBoundary>
           <Suspense fallback={<Spinner />}>
