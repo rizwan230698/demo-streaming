@@ -56,6 +56,7 @@ export const Title = styled.h3`
   background-color: #414141;
   padding: 10px 0 10px 50px;
   font-weight: 300;
+  margin-bottom: 0;
 
   ${media.mobile`
     padding: 10px 24px
