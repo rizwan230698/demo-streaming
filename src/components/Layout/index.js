@@ -33,7 +33,7 @@ const Layout = ({ title, children }) => (
         </NavLinks>
       </NavLinkContainer>
     </HeaderX>
-    <Title>{title}</Title>
+    <Title title={title}>{title}</Title>
     <ContentX>
       <div className="site-layout-background" style={{ padding: 24 }}>
         {children}

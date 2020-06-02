@@ -57,6 +57,7 @@ export const Title = styled.h3`
   padding: 10px 0 10px 50px;
   font-weight: 300;
   margin-bottom: 0;
+  height: ${({ title }) => !title && '45px'};
 
   ${media.mobile`
     padding: 10px 24px

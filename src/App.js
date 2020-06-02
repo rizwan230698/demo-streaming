@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { Provider } from './context/DataContext';
-import ErrorBoundary from './components/error-boundary/ErrorBoundary';
+import ErrorBoundary from './components/errorBoundary';
 import Spinner from './components/spinner';
 
 const HomePage = lazy(() => import('./pages/homepage'));
