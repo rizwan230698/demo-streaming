@@ -25,6 +25,7 @@ class ErrorBoundary extends React.Component {
   }
 
   render() {
+    //If errored than return the error image else children
     if (this.state.hasErrored) {
       return (
         <Layout>

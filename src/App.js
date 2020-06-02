@@ -5,6 +5,7 @@ import { Provider } from './context/DataContext';
 import ErrorBoundary from './components/errorBoundary';
 import Spinner from './components/spinner';
 
+//Lazy load the routes
 const HomePage = lazy(() => import('./pages/homepage'));
 const SeriesPage = lazy(() => import('./pages/seriespage'));
 const MoviesPage = lazy(() => import('./pages/moviespage'));

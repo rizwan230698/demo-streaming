@@ -1,3 +1,4 @@
+//filter the data by programType and return array with first 21 items
 export const filterData = (data, programType) =>
   data.entries
     .filter(
