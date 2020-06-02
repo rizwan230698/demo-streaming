@@ -1,5 +1,11 @@
 import React from 'react';
 import Layout from '../Layout';
+import errorImage from '../../assets/error.png';
+import {
+  ErrorImageOverlay,
+  ErrorImageContainer,
+  ErrorImageText,
+} from './style';
 
 class ErrorBoundary extends React.Component {
   constructor() {
@@ -22,7 +28,10 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasErrored) {
       return (
         <Layout>
-          <p style={{ color: 'black' }}>Oops, something went wrong.</p>
+          <ErrorImageOverlay>
+            <ErrorImageContainer imageUrl={errorImage} />
+            <ErrorImageText>Sorry this page is broken</ErrorImageText>
+          </ErrorImageOverlay>
         </Layout>
       );
     }
