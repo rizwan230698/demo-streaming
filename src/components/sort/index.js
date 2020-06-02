@@ -13,8 +13,8 @@ const Sort = ({ handleChange, styles }) => {
       >
         <Option value="titleAToZ">Title (A-Z)</Option>
         <Option value="titleZtoA">Title (Z-A)</Option>
-        <Option value="releaseYearLowToHigh">Release year (oldest)</Option>
-        <Option value="releaseYearHighToLow">Release year (latest)</Option>
+        <Option value="releaseYearLowToHigh">Release year (Oldest)</Option>
+        <Option value="releaseYearHighToLow">Release year (Latest)</Option>
       </Select>
     </>
   );
