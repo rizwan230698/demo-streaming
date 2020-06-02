@@ -28,10 +28,6 @@ const MoviesPage = () => {
     Object.keys(state).length === 0 && fetchStreams();
   }, [fetchStreams, state]);
 
-  useEffect(() => {
-    console.log(searchBy);
-  }, [searchBy]);
-
   return (
     <Layout title="Popular Movies">
       {Object.keys(state).length === 0 ? (
