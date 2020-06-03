@@ -27,11 +27,7 @@ const Card = ({ title, imageUrl, releaseYear, description }) => {
   );
 
   return (
-    <Tooltip
-      overlayStyle={{ backgroundColor: 'rgba(0,0,0,0.8)' }}
-      title={releaseYear ? <Details /> : title}
-      placement="bottom"
-    >
+    <Tooltip title={releaseYear ? <Details /> : title} placement="bottom">
       <AntdCard hoverable cover={<img alt="example" src={imageUrl} />}>
         <Meta title={title} />
       </AntdCard>
