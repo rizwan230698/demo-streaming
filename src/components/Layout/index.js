@@ -48,7 +48,7 @@ const Layout = ({ title, children }) => (
         <LinkX to="#">Help</LinkX>
         <LinkX to="#">Manage Account</LinkX>
       </div>
-      <p>Copyight @ 2020 DEMO Streaming All Right Reserved.</p>
+      <p>Copyright @ 2020 DEMO Streaming All Right Reserved.</p>
       <FooterLinksContainer>
         <FooterLeft>
           <SocialIconContainer to="#">
