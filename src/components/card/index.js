@@ -6,8 +6,20 @@ const { Meta } = AntdCard;
 const Card = ({ title, imageUrl, releaseYear, description }) => {
   const Details = () => (
     <>
-      <h3 style={{ margin: 0, padding: 0, color: 'white' }}>{title}</h3>
-      <p style={{ margin: 0, padding: 0, fontSize: '12px' }}>{description}</p>
+      <h3
+        style={{
+          margin: 0,
+          padding: 0,
+          color: 'white',
+          fontWeight: 600,
+          fontSize: '14px',
+        }}
+      >
+        {title}
+      </h3>
+      <p style={{ margin: 0, padding: 0, fontSize: '12px', fontWeight: 300 }}>
+        {description}
+      </p>
       <small
         style={{ margin: 0, padding: 0 }}
       >{`Release year - ${releaseYear}`}</small>
@@ -16,7 +28,7 @@ const Card = ({ title, imageUrl, releaseYear, description }) => {
 
   return (
     <Tooltip
-      overlayStyle={{ backgroundColor: '#414141' }}
+      overlayStyle={{ backgroundColor: 'rgba(0,0,0,0.8)' }}
       title={releaseYear ? <Details /> : title}
       placement="bottom"
     >
