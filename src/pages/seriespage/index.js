@@ -52,12 +52,13 @@ const SeriesPage = () => {
               )
               //call the sort function from utils accordingly
               .sort((a, b) => utils[sortBy](a, b))
-              .map(({ title, images, releaseYear }) => (
+              .map(({ title, images, releaseYear, description }) => (
                 <Col lg={4} md={6} sm={6} xs={12}>
                   <Card
                     key={title}
                     title={title}
                     releaseYear={releaseYear}
+                    description={description}
                     imageUrl={images['Poster Art'].url}
                   />
                 </Col>
