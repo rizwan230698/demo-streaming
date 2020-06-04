@@ -1,4 +1,6 @@
 import utils from './utils/sort';
+import { filterData } from './utils/filterData';
+import streams from './api/streams';
 
 const array = [
   { title: 'American Sniper', releaseYear: 2015 },
@@ -24,5 +26,25 @@ describe('sorting functions', () => {
   test('should sort releaseYear(oldest to latest)', () => {
     const res = array.sort((a, b) => utils['releaseYearLowToHigh'](a, b));
     expect(res[0].releaseYear).toBe(2013);
+  });
+});
+
+describe('filterData utils function', () => {
+  test('should return programType movie and not more than 21 items', async () => {
+    const res = await streams.get();
+    const filteredData = filterData(res.data, 'movie');
+    expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
+      'movie'
+    );
+    expect(filteredData.length).toBe(21);
+  });
+
+  test('should return programType series and not more than 21 items', async () => {
+    const res = await streams.get();
+    const filteredData = filterData(res.data, 'series');
+    expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
+      'series'
+    );
+    expect(filteredData.length).toBe(21);
   });
 });
