@@ -8,6 +8,9 @@
 4. Run `yarn start` or `npm start` to run the application in the development mode.
 5. Open [http://localhost/:3000](http//localhost:3000) to view it in the browser.
 
+### Run tests
+`yarn test` or `npm test`
+
 ## How did you decide on the technical and architectural choices used as part of your solution?
 
 I used react-router-dom because it is one of the most popular routing libraries and it's easy to use as well. I used Axios to make API calls because it is compatible with all the browsers. For the UI design, I used Ant Design and styled-components because Ant Design has a lot of components and it can be easily customized using styled-components.
