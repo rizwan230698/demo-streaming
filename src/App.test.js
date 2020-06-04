@@ -31,6 +31,7 @@ describe('sorting functions', () => {
 
 describe('filterData utils function', () => {
   test('should return programType movie, releaseYear >= 2010 and not more than 21 items', async () => {
+    expect.assertions(3);
     const res = await streams.get();
     const filteredData = filterData(res.data, 'movie');
     expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
@@ -43,6 +44,7 @@ describe('filterData utils function', () => {
   });
 
   test('should return programType series, releaseYear >= 2010 and not more than 21 items', async () => {
+    expect.assertions(3);
     const res = await streams.get();
     const filteredData = filterData(res.data, 'series');
     expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
