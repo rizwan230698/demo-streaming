@@ -30,21 +30,27 @@ describe('sorting functions', () => {
 });
 
 describe('filterData utils function', () => {
-  test('should return programType movie and not more than 21 items', async () => {
+  test('should return programType movie, releaseYear >= 2010 and not more than 21 items', async () => {
     const res = await streams.get();
     const filteredData = filterData(res.data, 'movie');
     expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
       'movie'
     );
+    expect(
+      filteredData[Math.floor(Math.random() * 21)].releaseYear
+    ).toBeGreaterThanOrEqual(2010);
     expect(filteredData.length).toBe(21);
   });
 
-  test('should return programType series and not more than 21 items', async () => {
+  test('should return programType series, releaseYear >= 2010 and not more than 21 items', async () => {
     const res = await streams.get();
     const filteredData = filterData(res.data, 'series');
     expect(filteredData[Math.floor(Math.random() * 21)].programType).toBe(
       'series'
     );
+    expect(
+      filteredData[Math.floor(Math.random() * 21)].releaseYear
+    ).toBeGreaterThanOrEqual(2010);
     expect(filteredData.length).toBe(21);
   });
 });
