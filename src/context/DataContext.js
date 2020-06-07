@@ -1,7 +1,7 @@
 import createDataContext from './createDataContext';
 import streams from '../api/streams';
 
-const dataReducer = (state, action) => {
+export const dataReducer = (state = {}, action) => {
   switch (action.type) {
     case 'FETCH_STREAMS':
       return action.payload;
